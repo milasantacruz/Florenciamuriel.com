@@ -1,0 +1,207 @@
+/* 
+    font-family: 'Philosopher', sans-serif; titulo
+
+    font-family: 'Nunito', sans-serif; texto general
+
+    font-family: 'Poppins', sans-serif; encabezados 
+
+    purpura: #B281CB
+    azul: #64C9BB
+    
+    
+    
+*/
+
+.load{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    position: absolute;
+    z-index: 400;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e0ff00;
+    opacity: 0.9;
+
+}
+
+.load img{
+    cursor: pointer;
+    height: 20vh;
+    animation-iteration-count: 15;
+}
+
+.logo{
+    position: fixed;
+    padding: 1em;
+    left: 0;
+    top: 0;
+    z-index: 300;
+    width: 20rem;
+}
+
+
+nav{
+  position: fixed;
+  right: 0;
+  padding: 1em;
+  z-index: 300;
+}
+
+
+.dropdown-item a{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.iconMenu{
+    color: #e0ff00;
+    font-size: 2em;
+}
+
+
+nav a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+
+}
+
+nav a:hover{
+    font-size: 1.8;
+    color: #e0ff00;
+}
+
+
+.delete{
+    background-color:#e0ff00;
+}
+
+.contact-yellow-text{
+    color:#e0ff00;
+}
+
+
+.modal_about{
+    z-index: 400;
+}
+
+.modal_contact{
+    z-index: 400;
+}
+
+.modal_contact > .modal-card{
+    font-family: 'Poppins', sans-serif;
+    padding: 1em;
+    overflow: hidden;
+    height: 80vh;
+    width: 30vw;
+    min-width: 24em;
+    min-height: 40em;
+}
+
+.card_about{
+    font-family: 'Poppins', sans-serif;
+    padding: 1em;
+    overflow: hidden;
+    height: 80vh;
+    width: 30vw;
+    min-width: 24em;
+    min-height: 40em;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+
+
+.hi_there{
+    animation-iteration-count: 5;
+    animation-duration: 3s;
+    background-color: #e0ff00;
+}
+.redes{
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 5px;
+    position: fixed;
+    left: -0.5em;
+    bottom: 40vh;
+    z-index: 300;
+}
+
+.redes a{
+    font-size: 1.5em;
+    padding: 0.5em;
+    color: #e0ff00;
+}
+
+.redes a:hover{
+    font-size: 1.8;
+    color: #EEEEEE;
+}
+
+.dropdown-item a{
+    color: #e0ff00;
+}
+
+
+section{
+   
+    height: 100vh;
+    background-color: #EEEEEE;
+}
+
+.home{
+    
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#sketch_holder{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 300;
+}
+
+.hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 200;
+    cursor: pointer;
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    background-color: #eeeeeed2;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+
+.card_vid{
+    background-color: #EEEEEE;
+}
+
+
+.banner_char img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner_exp img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner_motion img{
+    width: 100%;
+    height: 100%;
+}
